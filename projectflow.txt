@@ -16,3 +16,6 @@
 12. Then git add-commit-push (we're saving V2 of our data at this point)
 13. Check dvc/git status, everything should be upto date.
 14. Now repeat step 10-12 for v3 of data.
+15. Check by going to previous version of data git checkout <hash> -> git checkout master
+16. Then dvc status -> which will show changes in data
+17. run dvc pull to sync with github
